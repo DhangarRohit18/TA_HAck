@@ -12,9 +12,6 @@ NEUROOPS AI bridges the gap between development and runtime. It ensures that cod
 - **Self-Healing & Auto-Scaling**: Predictive AIOps that restarts crashed services and scales resources to maintain SLA performance.
 - **Explainable AI (XAI)**: A transparent dashboard that explains *why* the AI took specific security or operational actions.
 
-## 🚀 Presentation & Demo Guide
-For the hackathon judges, run the following scenarios using the **NEUROOPS Dashboard**:
-
 ### 🎬 Demo 1: The DevSecOps Gate
 1. Go to **Security Lab** tab.
 2. Click **Trigger Secure Deployment Scan**.
@@ -29,13 +26,3 @@ For the hackathon judges, run the following scenarios using the **NEUROOPS Dashb
 1. Go to **IT Ops** tab.
 2. Click **Kill Database Process**.
 3. Watch the system detect the node failure and restart it automatically to restore the SLA.
-
-## 🛠️ Technical Stack
-- **Backend**: Python (FastAPI + Websockets)
-- **AI/ML**: Scikit-Learn (Anomaly Detection), Regex-based Security Scanning.
-- **Frontend**: React (Vite) + Tailwind CSS (v4) + Framer Motion.
-- **Monitoring**: Real-time WebSocket-based analytics.
-- **Presentation**: `Final_NEUROOPS_PPT.pptx` (Generated from TESSERACT '26 Template).
-
-## 🏁 Winning Pitch
-"NEUROOPS AI isn't just a monitoring tool; it's a digital immune system. It prevents vulnerabilities before they reach production, neutralizes live cyber attacks in milliseconds, and ensures IT infrastructure heals itself—all while explaining every decision to the human operators."
