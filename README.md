@@ -144,27 +144,30 @@ Confidence: 94%
 
 # 🏗️ Architecture
 
-```text
-[ Code Input ]
-      ↓
-[ AI Code Security Scanner ]
-      ↓
-[ Secure Deployment Gate ]
-      ↓
------------------------------
-[ Runtime Monitoring ]
-      ↓
-[ AI Brain ]
- (Detection + Prediction)
-      ↓
-[ Decision Engine ]
-      ↓
-[ Action Engine ]
-   ↙     ↓      ↘
-Security  Healing  Scaling
-      ↓
-[ Dashboard + Explainability ]
-```
+flowchart TD
+    %% ---------- BUILD / DEPLOYMENT PHASE ----------
+    subgraph Build_and_Deployment
+        A[Code Input] --> B[AI Code Security Scanner]
+        B --> C[Secure Deployment Gate]
+    end
+
+    %% ---------- RUNTIME PHASE ----------
+    subgraph Runtime_Intelligence
+        C --> D[Runtime Monitoring]
+        D --> E[AI Brain<br/>(Detection + Prediction)]
+        E --> F[Decision Engine]
+        F --> G[Action Engine]
+    end
+
+    %% ---------- ACTIONS ----------
+    G --> H[Security]
+    G --> I[Healing]
+    G --> J[Scaling]
+
+    %% ---------- OUTPUT ----------
+    H --> K[Dashboard + Explainability]
+    I --> K
+    J --> KJ --> K
 
 ---
 
