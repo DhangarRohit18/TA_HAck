@@ -10,9 +10,14 @@
 
 *A next-generation DevSecOps and Infrastructure Management platform that doesn't just alert you to problems—it fixes them autonomously.*
 
+> "A security-first autonomous IT system that protects, predicts, and self-manages infrastructure — with AI as its core brain."
+
 </div>
 
 ---
+
+## 🛡️ Core Vision (70% Security, 30% IT Ops)
+NEUROOPS AI bridges the gap between development and runtime. It ensures that code is secure before deployment and that the infrastructure can defend itself against live threats without human intervention.
 
 ## 💡 The Problem: Alert Fatigue & Response Latency
 In modern cloud environments, security teams are drowning in alerts. The time between a vulnerability being introduced, detected, and remediated (Mean Time to Remediate - MTTR) is often measured in days or weeks. During a live cyberattack, human response times are simply too slow to prevent data exfiltration or system downtime.
@@ -27,15 +32,17 @@ NEUROOPS AI is an autonomous, AI-driven operations center. It acts as a virtual 
 ### 🛡️ 1. Autonomous DevSecOps Pipeline
 - **Real-time SAST/DAST Scanning:** Analyzes code commits instantly.
 - **Vulnerability Detection:** Identifies critical flaws like SQL Injections and Hardcoded Secrets.
-- **AI Auto-Fix:** Automatically rewrites vulnerable code (e.g., converting raw queries to parameterized queries) and deploys the secured version without human intervention.
+- **AI Auto-Fix:** Automatically rewrites vulnerable code and deploys the secured version without human intervention.
 
 ### 🌍 2. Global Threat Intelligence
 - **Live Threat Map:** Visualizes incoming attacks (DDoS, Brute Force, Malware) across global server nodes.
 - **Predictive Defense:** Uses AI to predict attack vectors and proactively scale defenses.
+- **Runtime Threat Detection**: Uses machine learning to identify anomalous traffic patterns.
 
 ### 🤖 3. Explainable AI Decisions
-- **Audit Trail:** Every autonomous action (e.g., "Blocked IP 45.33.22.11", "Scaled up us-east-1") is logged with an AI Confidence Score.
-- **Human-in-the-Loop:** Configurable confidence thresholds. If the AI is < 90% confident, it requires human approval.
+- **Audit Trail:** Every autonomous action is logged with an AI Confidence Score.
+- **Human-in-the-Loop:** Configurable confidence thresholds.
+- **Explainable AI (XAI)**: A transparent dashboard that explains *why* the AI took specific actions.
 
 ### 📊 4. Real-time Telemetry & Analytics
 - **Live Event Stream:** A terminal-like interface showing real-time system logs.
@@ -44,6 +51,26 @@ NEUROOPS AI is an autonomous, AI-driven operations center. It acts as a virtual 
 ### ⚙️ 5. Self-Healing Infrastructure
 - **Predictive Auto-scaling:** Scales resources *before* traffic spikes hit based on historical AI models.
 - **Node Isolation:** Automatically quarantines compromised server nodes to prevent lateral movement.
+- **Auto-Restarts**: Predictive AIOps that restarts crashed services and scales resources to maintain SLA performance.
+
+---
+
+## 🎬 Demos
+
+### 🎬 Demo 1: The DevSecOps Gate
+1. Go to **Security Lab** tab.
+2. Click **Trigger Secure Deployment Scan**.
+3. Watch the AI block an insecure push (SQL Injection/Secrets).
+
+### 🎬 Demo 2: Real-time DDoS Defense
+1. Trigger a **L7 DDoS Attack** from the dashboard or run `python simulations/ddos_demo.py`.
+2. Watch the **Network Traffic** spike in red.
+3. Observe the **Autonomous Action Engine** block the suspicious IPs and mitigate the threat within seconds.
+
+### 🎬 Demo 3: Self-Healing IT
+1. Go to **IT Ops** tab.
+2. Click **Kill Database Process**.
+3. Watch the system detect the node failure and restart it automatically to restore the SLA.
 
 ---
 
@@ -93,10 +120,6 @@ graph TD
 - **Data Visualization:** Recharts (Responsive, real-time area charts)
 - **Icons:** Lucide React
 - **Typography:** Inter & JetBrains Mono
-
----
-
-
 
 ---
 
