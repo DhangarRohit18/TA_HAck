@@ -119,7 +119,7 @@ Confidence: 94%
 
 ---
 
-## ⚙️ Autonomous IT Features (30%)
+## ⚙️ Autonomous IT Features 
 
 ### 🔧 Self-Healing
 
@@ -276,17 +276,4 @@ npm run dev
 
 ---
 
-# 🤝 Contributing
 
-Contributions are welcome!
-Feel free to open issues and submit PRs 🚀
-
----
-
-# 📜 License
-
-MIT License
-
----
-
-# 🔥 Built for Hackathons | Ready for Real-World Deployment
