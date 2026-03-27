@@ -18,12 +18,7 @@ NEUROOPS AI introduces a **security-first autonomous system** that:
 
 ---
 
-## 🛡️ Core Strategy
 
-* 🧠 **70% Focus → Cybersecurity (USP)**
-* ⚙️ **30% → Autonomous IT Operations**
-
----
 
 ## 🧩 System Workflow
 
