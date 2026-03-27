@@ -144,7 +144,7 @@ Confidence: 94%
 
 # 🏗️ Architecture
 
-flowchart TD
+```flowchart TD
     %% ---------- BUILD / DEPLOYMENT PHASE ----------
     subgraph Build_and_Deployment
         A[Code Input] --> B[AI Code Security Scanner]
@@ -168,7 +168,7 @@ flowchart TD
     H --> K[Dashboard + Explainability]
     I --> K
     J --> KJ --> K
-
+```
 ---
 
 # 🧠 Tech Stack
